@@ -1,0 +1,30 @@
+h2 {
+
+    color: green;
+}
+
+ul {
+    background-color: indigo;
+}
+
+ul.li {
+    
+    color: lawngreen;
+}
+ol {
+    background-color: firebrick;
+}
+ol.li {
+    background-color: firebrick;
+}
+ #cantin {
+    color: gold;
+    background-color: chocolate;
+ }
+ .teachers {
+    background-color: aqua;
+    color: hotpink;
+ }
+ * {
+    background-color: darkblue;
+ }
