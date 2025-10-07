@@ -1,0 +1,16 @@
+p {
+    color: pink;
+    background:radial-gradient(red 25%,green 50%  )
+}
+ul {
+    background:linear-gradient(red,blue)
+}
+#facts {
+    background: linear-gradient(green,yellow)
+    }
+#goodsite {
+    background:radial-gradient(green,blue,pink)
+}
+ol {
+    background: linear-gradient(red, green)
+}
