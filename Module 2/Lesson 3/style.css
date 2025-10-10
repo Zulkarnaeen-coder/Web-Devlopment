@@ -48,3 +48,27 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+input[type="text"] {
+    border: 2px solid greenyellow;
+}
+input[type="password"] {
+    border: 2px solid greenyellow;
+}
+ul>li {
+    color: green;
+    font-size: 20px;
+}
+h1+p {
+    text-shadow: 2px 2px green;
+}
+li:nth-child(3) {
+    background-color: red;
+}
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+h1::first-letter {
+    font-size: 35px;
+    color: gold;
+}
