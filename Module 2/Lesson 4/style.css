@@ -1,0 +1,37 @@
+/*Attribute Selector*/
+input[type="text"] {
+    border: 2px solid greenyellow;
+}
+
+/*Child Selector*/
+ul>li {
+    color: green;
+    font-size: 40px;
+}
+
+/*Sibling Selector*/
+h1+p {
+    text-shadow: 2px 2px green;
+}
+
+li:nth-child(3) {
+    background-color: red;
+}
+
+a:hover {
+    color: green;
+    font-size: 20px;
+}
+
+p::after {
+    content: "😂";
+}
+
+p::before {
+    content: "😂";
+}
+
+h4::first-letter {
+    font-size: 35px;
+    color: gold;
+}

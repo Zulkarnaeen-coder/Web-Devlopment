@@ -1,5 +1,26 @@
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+p {
+   font-size: 20px;
+}
+
+ul {
+    background: linear-gradient(red, blue)
+}
+
+#facts2 {
+    background: linear-gradient(green, yellow)
+}
+
+#goodsite3 {
+    background: radial-gradient(green, blue, pink)
+}
+
+ol {
+    background: linear-gradient(red, green)
+}
+
+#grad1 {
+         height: 100px;
+         background: linear-gradient(to bottom right, red, yellow, green)
 }
 h1 {
     text-decoration: line-through;
@@ -11,13 +32,19 @@ h2 {
 }
 h3 {
     text-decoration: underline;
+    text-transform: capitalize;
 }
 h4 {
-    text-decoration: underline overline;
+    text-decoration: overline underline;
+    text-transform: uppercase;
 }
 p {
     font-size: 20px;
-    color: aqua;
-    text-shadow: 2px 2px red;
-    box-shadow: 2px 2px 5px blue;
+        color: aqua;
+        text-shadow: 2px 2px red;
+        box-shadow: 2px 2px 10px blue;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
