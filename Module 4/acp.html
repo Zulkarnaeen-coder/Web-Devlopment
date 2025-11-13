@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Simple Calculator in Javascript</h1>
+        <p>Addition</p>
+        <p>5+6=</p>
+        <h4 id="result"></h4>
+        <p>Subtraction</p>
+        <p>7-3=</p>
+        <h4 id="result1"></h4>
+        <p>Mutiplication</p>
+        <p>7*2=</p>
+        <h4 id="result2"></h4>
+        <p>Division</p>
+        <p>21/3=</p>
+        <h4 id="result3"></h4>
+        <script>
+            var num1 = 5;
+            var num2 = 6;
+            var add = num1 + num2
+            document.getElementById("result").
+            innerHTML = add;
+
+            var num3 = 7;
+            var num4 = 3;
+            var sub = num3 - num4 
+            document.getElementById("result1").
+            innerHTML = sub;
+
+            var num5 = 7;
+            var num6 = 2;
+            var multiply = num5 * num6
+            document.getElementById("result2").
+            innerHTML = multiply;
+
+            var num7 = 21;
+            var num8 = 3;
+            var div = num7 / num8
+            document.getElementById("result3").
+            innerHTML = div;
+        </script>
+    </body>
+</html>
