@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Javascript class inheditence withe static method</h1>
+        <script>
+            class car{
+                constructor(brand){
+                    this.brand = brand;
+                }
+                static modelinfo(){
+                    return "Cars have various model."
+                }
+            }
+            class Electriccar extends car {
+                constructor(brand,battarycapasity){
+                    super(brand);
+                    this.battarycapasity = battarycapasity;
+                }
+                static battarycapasityinfo(){
+                    return "Electric cars have battary with different capasity"
+                }
+            }
+            myElectriccar = new car("Tesla","100kmh")
+            document.write(
+                "My electric car is a " + myElectriccar.brand +"with battary capasity " + myElectriccar.battarycapasity + "<br>"
+        )
+        document.write(car.modelinfo() + "<br>")
+        document.write(Electriccar.battarycapasityinfo())
+       </script>
+    </body>
+</html>
