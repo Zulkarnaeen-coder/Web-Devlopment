@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Animals</h1>
+    <script>
+        class animal {
+            constructor(sound) {
+                this.sound = sound;
+            }
+            static soundinfo() {
+                return "Animals have various sound."
+            }
+        }
+        class Dog extends animal {
+            constructor(sound, food) {
+                super(sound);
+                this.food = food;
+            }
+            static Foodinfo() {
+                return "Animals Have different favourite foods."
+            }
+        }
+        myDog = new Dog("Goof Goof !", "Bones")
+        document.write(
+            "My Dog's sound is " + myDog.sound + " And his favourite food is " + myDog.food + "<br>"
+        )
+        document.write(animal.soundinfo() + "<br>")
+        document.write(Dog.Foodinfo())
+    </script>
+</body>
+
+</html>
