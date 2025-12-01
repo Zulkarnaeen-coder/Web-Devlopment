@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Javascript Error Handling</h1>
+        <p id="Error_message"></p>
+        <script>
+            try{
+                addalert("Welcome Guest")
+            }
+            catch (err) {
+                document.getElementById("Error_message").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
