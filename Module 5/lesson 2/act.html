@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <center>
-        <h1>চানন্দে ছিলা</h1>
-        <h2>মাংগের পোলা </h2>
-        <h3>আমি রবিউল </h3>
-        <h1>খানকির পোলা<h1><br><br><br><br><br><br><br><br><br>
+        <h1>test</h1>
+        <p id="1"></p>
+        <p id="2"></p>
+        <script>
+            class student {
+                constructor(name,year){
+                    this.name = name;
+                    this.year = year;
+                }
+                age(){
+                    let date = new date();
+                    return date.GetFullYear() - this.year;
+                }
+            }
+            student1 = new student ("z",2000);
+            document.getElementById("1").innerHTML = student1.name
+            document.getElementById("2").innerHTML = student1.year
+        </script>
     </body>
 </html>
