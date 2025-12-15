@@ -1,0 +1,13 @@
+#title {
+    animation: bgChange 2s infinite alternate;
+}
+
+@keyframes bgChange {
+    from {
+        color: red;
+    }
+
+    to {
+        color: blue;
+    }
+}

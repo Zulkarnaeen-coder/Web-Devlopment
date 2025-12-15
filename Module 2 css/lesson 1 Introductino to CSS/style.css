@@ -22,6 +22,19 @@ li {
     background-color: deeppink;
 }
 
-* {
-    background-color: black;
+body {
+    animation: bgChange 3s infinite alternate;
+}
+
+@keyframes bgChange {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+*{
+    background-color: aqua;
 }
