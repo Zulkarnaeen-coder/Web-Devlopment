@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form name="myForm" onsubmit="validateform()">
+        <fieldset>
+            <legend>
+                <h1>Personal details</h1>
+            </legend>
+            <label for="" >Name:</label>
+            <input type="text" name="Fullname" id="name"><br><br>
+            <label for="">Age</label>
+            <input type="number" name="Age" id="age" min="18" placeholder="Minimum 18 age"><br><br>
+            <input type="submit">
+            <p id="alert"></p>
+        </fieldset>
+    </form>
+    <script>
+        function validateform(){
+            let name = document.forms["myForm"]["Fullname"].value;
+            let age = document.forms["myForm"]["Age"].value;
+            if (name === "" ||age === ""){
+                document.getElementById("alert").innerHTML = "Name and Age must be filled"
+            }         
+            else{
+                document.getElementById("alert").innerHTML = "Successfully form submitted!!!"
+            }
+        }
+    </script>
+</body>
+</html>
