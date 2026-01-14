@@ -5,7 +5,7 @@ function setScreenValue(value){
     document.getElementById("result").value +=value;
 }
 function calculateResult(){
-    const resultElement = document.getElementById("result").value;
+    const resultElement = document.getElementById("result");
     const expression = resultElement.value;
     if (expression === ""){
         document.getElementById("result").innerHTML ="Please enter an expression!";
