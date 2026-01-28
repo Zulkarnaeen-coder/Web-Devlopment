@@ -21,6 +21,31 @@ body{
     
 }
 .topnav a.active{
-    background-color: yellow;
-    color: black;
+    background-color: gold;
+}
+@keyframes changecolor {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+    color: greenyellow;
+    }
+
+    75% {
+        color: aqua;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+#Home{
+    animation-name: changecolor;
+    animation-duration: 10s;
 }
