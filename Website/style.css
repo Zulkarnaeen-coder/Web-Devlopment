@@ -49,3 +49,6 @@ body{
     animation-name: changecolor;
     animation-duration: 10s;
 }
+*{
+    background-color: gray;
+}
