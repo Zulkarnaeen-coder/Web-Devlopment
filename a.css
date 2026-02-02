@@ -1,0 +1,45 @@
+/* হোম লিংকের সাধারণ ডিজাইন */
+div{
+    display: inline-block;
+    /* হাইট এবং উইডথ কাজ করার জন্য এটি জরুরি */
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    transition: width 0.5s, height 0.5s;
+    }
+
+
+/* যখন মাউস হভার করা হবে */
+div:hover {
+    animation-name: resize;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* অ্যানিমেশন শেষ হওয়ার পর সাইজ ধরে রাখার জন্য */
+}
+
+/* অ্যানিমেশন লজিক */
+@keyframes resize {
+    from {
+        width: 100px;
+        height: 40px;
+    }
+
+    to {
+        width: 150px;
+        height: 60px;
+    }
+}
+div{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    transition: width 0.5s, height 0.5s;
+}
