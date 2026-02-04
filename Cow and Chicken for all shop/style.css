@@ -2,10 +2,21 @@
 body {
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background:linear-gradient(gray,black) ;
+    animation-name: bgcc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgcc {
+    10%{background:linear-gradient(grey,black) ;}
+    20%{background: linear-gradient(
+        
+    );}
 }
 
 .topnavi {
-    height: 50px;
+    height: 70px;
     background-color: grey;
     overflow: none;
 }
@@ -17,7 +28,7 @@ body {
     padding: 7px 10px;
     font-size: 17px;
     height: 20px;
-    
+
 }
 
 .topnavi a:hover {
@@ -29,30 +40,35 @@ body {
     height: 34px;
     width: 70px;
 }
-.topnavi a.active:hover{
+
+.topnavi a.active:hover {
     animation-name: resizeforhome;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-        transition: height 0.5,width 0.5;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    transition: height 0.5, width 0.5;
 }
+
 @keyframes resizeforhome {
-    from{
+    from {
         height: 34px;
         width: 70px;
         background-color: gold;
     }
-    to{
+
+    to {
         height: 45px;
         width: 100px;
         background-color: red;
     }
-    
+
 }
-.topnavi a.service{
-    
+
+.topnavi a.service {
+
     height: 34px;
     width: 90px;
 }
+
 .topnavi a.service:hover {
     animation-name: resizeforservice;
     animation-duration: 1s;
@@ -73,16 +89,19 @@ body {
     }
 
 }
-.topnavi a.menu{
+
+.topnavi a.menu {
     height: 34px;
-    
+
     width: 70px;
 }
-.topnavi a.menu:hover{
+
+.topnavi a.menu:hover {
     animation-name: resizeformenu;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
 @keyframes resizeformenu {
     from {
         height: 34px;
@@ -98,16 +117,18 @@ body {
 
 }
 
-.topnavi a.offer{
-    
+.topnavi a.offer {
+
     height: 34px;
     width: 70px;
 }
-.topnavi a.offer:hover{
+
+.topnavi a.offer:hover {
     animation-name: resizeforoffer;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
 @keyframes resizeforoffer {
     from {
         height: 34px;
@@ -122,15 +143,18 @@ body {
     }
 
 }
-.topnavi a.contact{
+
+.topnavi a.contact {
     height: 34px;
     width: 80px;
 }
-.topnavi a.contact:hover{
+
+.topnavi a.contact:hover {
     animation-name: resizeforcontact;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
 @keyframes resizeforcontact {
     from {
         height: 34px;
@@ -144,4 +168,37 @@ body {
         background-color: red;
     }
 
+}
+
+.udl {
+    background-color: aqua;
+    height: 45px;
+    animation-name: udlcc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes udlcc {
+    10% {
+        background-color: aqua;
+    }
+
+     20% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: rgb(199, 202, 32);
+    }
+
+    70% {
+        background-color: blue;
+    }
+        100% {
+            background-color: aqua;
+        }
 }
