@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: linear-gradient(gray, black);
+    animation-name: bgcc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgcc {
+    10% {
+        background: linear-gradient(grey, black);
+    }
+
+    20% {
+        background: linear-gradient();
+    }
+}
+
+.topnavi {
+    height: 70px;
+    background-color: grey;
+    overflow: none;
+}
+
+.topnavi a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 10px;
+    font-size: 17px;
+    height: 20px;
+
+}
+
+.topnavi a:hover {
+    color: darkgreen;
+}
+
+.topnavi a.active {
+    background-color: gold;
+    height: 34px;
+    width:100px;
+}
+
+
+.topnavi a.service {
+
+    height: 34px;
+    width: 90px;
+}
+
+.topnavi a.service:hover {
+    animation-name: resizeforservice;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeforservice {
+    from {
+        height: 34px;
+        width: 90px;
+        background-color: gold;
+    }
+
+    to {
+        height: 45px;
+        width: 100px;
+        background-color: red;
+    }
+
+}
+
+.topnavi a.menu {
+    height: 34px;
+
+    width: 70px;
+}
+
+.topnavi a.menu:hover {
+    animation-name: resizeformenu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeformenu {
+    from {
+        height: 34px;
+        width: 70px;
+        background-color: gold;
+    }
+
+    to {
+        height: 45px;
+        width: 100px;
+        background-color: red;
+    }
+
+}
+
+.topnavi a.offer {
+
+    height: 34px;
+    width: 70px;
+}
+
+.topnavi a.offer:hover {
+    animation-name: resizeforoffer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeforoffer {
+    from {
+        height: 34px;
+        width: 70px;
+        background-color: gold;
+    }
+
+    to {
+        height: 45px;
+        width: 100px;
+        background-color: red;
+    }
+
+}
+
+.topnavi a.contact {
+    height: 34px;
+    width: 80px;
+}
+
+.topnavi a.contact:hover {
+    animation-name: resizeforcontact;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeforcontact {
+    from {
+        height: 34px;
+        width: 80px;
+        background-color: gold;
+    }
+
+    to {
+        height: 45px;
+        width: 100px;
+        background-color: red;
+    }
+
+}
+
+.udl {
+    background-color: aqua;
+    height: 45px;
+    animation-name: udlcc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes udlcc {
+    10% {
+        background-color: aqua;
+    }
+
+    20% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: rgb(199, 202, 32);
+    }
+
+    70% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: aqua;
+    }
+}
+
+
+.topnavi a.active:hover {
+    animation-name: resizeforaboutus;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeforaboutus {
+    from {
+        height: 34px;
+        width: 100px;
+        background-color: gold
+    }
+
+    to {
+        height: 45px;
+        width: 120px;
+        background-color: red;
+    }
+
+}
+.topnavi a.home{
+    width: 70px;
+    height: 34px;
+}
+.topnavi a.home:hover {
+    animation-name: resizeforhome;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeforhome {
+    from {
+        height: 34px;
+        width: 70px;
+        background-color: gold
+    }
+
+    to {
+        height: 45px;
+        width: 90px;
+        background-color: red;
+    }
+
+}
+.float{
+    float: right;
+}
+.textforfarm{
+    width: 500px;
+    color: wheat;
+}
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.float2 {
+    float: left;
+    
+}
+.textforfarm2{
+    color: wheat;
+    width: 500px;
+}

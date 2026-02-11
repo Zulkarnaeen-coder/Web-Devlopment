@@ -308,3 +308,28 @@ body {
     background-color: black;
     text-align: center;
 }
+.topnavi a.aboutus {
+    height: 34px;
+    width: 100px;
+}
+
+.topnavi a.aboutus:hover {
+    animation-name: resizeforaboutus;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes resizeforaboutus {
+    from {
+        height: 34px;
+        width: 100px;
+        background-color: gold;
+    }
+
+    to {
+        height: 45px;
+        width: 120px;
+        background-color: red;
+    }
+
+}
