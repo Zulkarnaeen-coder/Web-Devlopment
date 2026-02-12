@@ -1,0 +1,43 @@
+.form{
+    padding: 10px;
+}
+form{
+    padding: 2px;
+    justify-content: center;
+    
+}
+body{
+    background: linear-gradient(grey,black);
+    color: white;
+}
+input[type=text],select,textarea{
+    height: 40px;
+    width: 300px;
+    border-radius: 9px;
+    border: 2px solid;
+    margin-bottom: 10px;
+    resize: vertical;
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: none;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    color: brown;
+    background-color: darkblue;
+}
+@media screen and (max-width:600px) {
+    input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+input[id=fd]{
+    height: 150px;
+    width: 350px;
+    text-align: left;
+}
