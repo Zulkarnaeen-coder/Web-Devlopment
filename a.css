@@ -1,0 +1,12 @@
+label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    /* Generous left/right padding */
+    border: 2px solid #333;
+    /* The border */
+    border-radius: 9999px;
+    /* Keeps sides perfectly round */
+    font-family: sans-serif;
+}
